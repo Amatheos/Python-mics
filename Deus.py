@@ -3,6 +3,11 @@ import time
 import json 
 import requests
 
+"""
+This is a simple code for a telegram chat bot that mirrors all messages sent to him. Note: to implement this to your bot,
+replace "CLASSIFIED" with the token of your bot.
+"""
+
 TOKEN = "CLASSIFIED"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
